@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              SalePrice   R-squared:                       0.442
+Model:                            OLS   Adj. R-squared:                  0.442
+Method:                 Least Squares   F-statistic:                     1161.
+Date:                Sun, 11 Oct 2026   Prob (F-statistic):               0.00
+Time:                        13:43:03   Log-Likelihood:                -36364.
+No. Observations:                2929   AIC:                         7.273e+04
+Df Residuals:                    2926   BIC:                         7.275e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const         6.509e+04   2675.388     24.329      0.000    5.98e+04    7.03e+04
+Wood Deck SF   117.0398      8.987     13.024      0.000      99.419     134.660
+Garage Area    221.5395      5.281     41.950      0.000     211.185     231.894
+==============================================================================
+Omnibus:                      857.863   Durbin-Watson:                   1.338
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5947.887
+Skew:                           1.206   Prob(JB):                         0.00
+Kurtosis:                       9.551   Cond. No.                     1.28e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.28e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
