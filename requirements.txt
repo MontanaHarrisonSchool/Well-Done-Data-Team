@@ -19,3 +19,4 @@ statsmodels==0.15.0
 typing_extensions==4.16.0
 tzdata==2026.5
 wrapt==2.5.0
+ipykernel==7.4.0 #Adding this manually to allow for users to open this in VSCode - Montana
